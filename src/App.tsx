@@ -1,9 +1,15 @@
 import React from 'react';
-import RepositoryApp from "./RepositoryApp";
+import ReactHooksTsApp from './ReactHooksTsApp';
+// import CalculaMedidaApp from './CalculaMedidaApp';
+// import RepositoryApp from "./RepositoryApp";
 
 const App = () => {
   return (
-    <RepositoryApp />
+    <>
+      {/* <RepositoryApp /> */}
+      {/* <CalculaMedidaApp /> */}
+      <ReactHooksTsApp />
+    </>
   );
 }
 
