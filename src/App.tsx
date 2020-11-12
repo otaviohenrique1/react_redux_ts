@@ -1,14 +1,18 @@
 import React from 'react';
-import ReactHooksTsApp from './ReactHooksTsApp';
+import AppReducer2 from './ReactHooksTsApp/AppReducer2';
+// import ReactHooksTsApp from './ReactHooksTsApp';
+// import ExemploUseEffectTS from './ReactHooksTsApp/ExemploUseEffectTS';
 // import CalculaMedidaApp from './CalculaMedidaApp';
 // import RepositoryApp from "./RepositoryApp";
 
-const App = () => {
+const App: React.FC = () => {
   return (
     <>
       {/* <RepositoryApp /> */}
       {/* <CalculaMedidaApp /> */}
-      <ReactHooksTsApp />
+      {/* <ReactHooksTsApp /> */}
+      {/* <ExemploUseEffectTS /> */}
+      <AppReducer2/>
     </>
   );
 }
