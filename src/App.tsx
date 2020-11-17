@@ -1,5 +1,6 @@
 import React from 'react';
-import AppReducer2 from './ReactHooksTsApp/AppReducer2';
+import CalculaMedidaApp from './CalculaMedidaApp';
+// import AppReducer2 from './ReactHooksTsApp/AppReducer2';
 // import ReactHooksTsApp from './ReactHooksTsApp';
 // import ExemploUseEffectTS from './ReactHooksTsApp/ExemploUseEffectTS';
 // import CalculaMedidaApp from './CalculaMedidaApp';
@@ -12,7 +13,8 @@ const App: React.FC = () => {
       {/* <CalculaMedidaApp /> */}
       {/* <ReactHooksTsApp /> */}
       {/* <ExemploUseEffectTS /> */}
-      <AppReducer2/>
+      {/* <AppReducer2/> */}
+      <CalculaMedidaApp/>
     </>
   );
 }

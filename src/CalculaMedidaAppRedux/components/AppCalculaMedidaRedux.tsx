@@ -1,9 +1,9 @@
 import React from 'react';
 
-const AppCalculaMedida = () => {
+const AppCalculaMedidaRedux = () => {
     return (
         <div>
-            <h1>Calcula Medida</h1>
+            <h1>Calcula Medida Redux</h1>
             <input type="number" name="campo_a" id="campo_a"/>
             <input type="number" name="campo_b" id="campo_b"/>
             <input type="number" name="campo_c" id="campo_c"/>
@@ -13,4 +13,4 @@ const AppCalculaMedida = () => {
     );
 }
 
-export default AppCalculaMedida;
+export default AppCalculaMedidaRedux;
