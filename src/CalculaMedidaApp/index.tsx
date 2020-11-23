@@ -44,7 +44,7 @@ const CalculaMedidaApp = () => {
                 </form>
             </div>
             <div>
-                <button type="button">Calcular</button>
+                <button type="button" onClick={() => {}}>Calcular</button>
                 <button type="reset">Limpar</button>
             </div>
             <ul>
